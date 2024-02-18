@@ -21,6 +21,10 @@ Plugins are choosed by their popularity and ease of use. Please check their gith
 * file structure - [NERDtree](https://github.com/preservim/nerdtree)
 * mode line theme - [vim-airline](https://github.com/preservim/nerdtree)
 * icon support - [vim-devicons](https://github.com/ryanoasis/vim-devicons)
+* sytanx error highlitning - [ale](https://github.com/dense-analysis/ale)
+
+
+* *other text completion (not working for my purposes) - [vim-smooth-scroll](https://github.com/terryma/vim-smooth-scroll)
 
 
 ## Setup
@@ -28,6 +32,10 @@ Plugins are choosed by their popularity and ease of use. Please check their gith
 2. download plugin manager (vim-plug - check their repo)
 3. install plugins
 4. go to YouCompleteMe github repo and do step by step installation.
+
+### Additionally
+1. Create .vim folder in $HOME for other config and plugin files (especially when using YouCompleteMe)
+2. Make corresponding directiories: backup/, autoload/, colors/, plugged/
 
 ## Help from scratch 
 * [some dood on YT](https://www.youtube.com/watch?v=yUU12SqX_sY)

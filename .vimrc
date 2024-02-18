@@ -60,6 +60,10 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " Encoding
 set encoding=UTF-8
 
+" Backspace behavior
+set backspace=indent,eol,start
+
+
 " PLUGINS ---------------------------------------------------------------- {{{
 
 " Plugin code goes here.
@@ -78,13 +82,13 @@ set encoding=UTF-8
 	
 	Plug 'https://github.com/ycm-core/YouCompleteMe' 
 
-"	Plug 'dense-analysis/ale'
+	Plug 'dense-analysis/ale'
 
 	Plug 'preservim/nerdtree'
 
 "	Plug 'https://github.com/sheerun/vim-polyglot'
 
-"	Plug 'https://github.com/terryma/vim-smooth-scroll'
+	Plug 'https://github.com/terryma/vim-smooth-scroll'
 
 	Plug 'https://github.com/907th/vim-auto-save'
 	
@@ -100,6 +104,18 @@ set encoding=UTF-8
 
 	let NERDTreeShowHidden=1
 	let g:auto_save=1
+
+	"Coursos behavior - SI insert mode, EI every other mode
+	"Ps = 0  -> blinking block.
+	"Ps = 1  -> blinking block (default).
+	"Ps = 2  -> steady block.
+	"Ps = 3  -> blinking underline.
+	"Ps = 4  -> steady underline.
+	"Ps = 5  -> blinking bar (xterm).
+	"Ps = 6  -> steady bar (xterm).
+	
+	let &t_SI = "\e[5 q"
+	let &t_EI = "\e[2 q"
 
 " }}}
 
