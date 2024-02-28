@@ -30,8 +30,8 @@ Plugins are choosed by their popularity and ease of use. Please check their gith
 ## Setup
 1. paste .vimrc into $HOME directory
 2. download plugin manager (vim-plug - check their repo)
-3. install plugins
-4. go to YouCompleteMe github repo and do step by step installation.
+3. install plugins (while in vim: :PlugInstall, hit enter, make sure YouCompleteMe is downloaded last)
+4. go to YouCompleteMe github repo and do step by step installation. (install dependencies and run setup.py with completion you need. It will compile for few minutes)
 
 ### Additionally
 1. Create .vim folder in $HOME for other config and plugin files (especially when using YouCompleteMe)
