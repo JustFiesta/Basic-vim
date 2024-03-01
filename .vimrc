@@ -63,6 +63,8 @@ set encoding=UTF-8
 " Backspace behavior
 set backspace=indent,eol,start
 
+" Yank to clipboard
+set clipboard=unnamedplus
 
 " PLUGINS ---------------------------------------------------------------- {{{
 
