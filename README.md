@@ -25,13 +25,11 @@ Plugins are choosed by their popularity and ease of use. Please check their gith
 
 ## Setup
 1. paste .vimrc into $HOME directory
-2. download plugin manager (vim-plug - check their repo)
-3. install plugins (while in vim: :PlugInstall, hit enter, make sure YouCompleteMe is downloaded last)
-4. go to YouCompleteMe github repo and do step by step installation. (install dependencies and run setup.py with completion you need. It will compile for few minutes)
-
-### Additionally
-1. Create .vim folder in $HOME for other config and plugin files (especially when using YouCompleteMe)
-2. Make corresponding directiories: backup/, autoload/, colors/, plugged/: `mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged`
+2. Create .vim folder in $HOME for other config and plugin files (especially when using YouCompleteMe)
+3. Make corresponding directiories: backup/, autoload/, colors/, plugged/: `mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged`
+4. download plugin manager (vim-plug - check their repo)
+5. install plugins (while in vim: :PlugInstall, hit enter, make sure YouCompleteMe is downloaded last)
+6. go to YouCompleteMe github repo and do step by step installation. (install dependencies and run setup.py INSIDE ~/.vim/plugged/YouCompleteMe with completion you need. It will compile for few minutes)
 
 ## Help from scratch 
 * [some dood on YT](https://www.youtube.com/watch?v=yUU12SqX_sY)
