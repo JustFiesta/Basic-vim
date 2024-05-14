@@ -23,10 +23,6 @@ Plugins are choosed by their popularity and ease of use. Please check their gith
 * icon support - [vim-devicons](https://github.com/ryanoasis/vim-devicons)
 * sytanx error highlitning - [ale](https://github.com/dense-analysis/ale)
 
-
-* *other text completion (not working for my purposes) - [vim-smooth-scroll](https://github.com/terryma/vim-smooth-scroll)
-
-
 ## Setup
 1. paste .vimrc into $HOME directory
 2. download plugin manager (vim-plug - check their repo)
@@ -35,7 +31,7 @@ Plugins are choosed by their popularity and ease of use. Please check their gith
 
 ### Additionally
 1. Create .vim folder in $HOME for other config and plugin files (especially when using YouCompleteMe)
-2. Make corresponding directiories: backup/, autoload/, colors/, plugged/
+2. Make corresponding directiories: backup/, autoload/, colors/, plugged/: `mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged`
 
 ## Help from scratch 
 * [some dood on YT](https://www.youtube.com/watch?v=yUU12SqX_sY)
